@@ -1,0 +1,194 @@
+.main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.main .leftContainer {
+    width: 250px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .leftContainer .title {
+    width: 250px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .leftContainer .title .svg {
+    width: 50px;
+    height: 70px;
+    margin: 0 5px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .leftContainer .title .svg svg {
+    width: 40px;
+    height: 40px;
+    fill: rgb(33, 132, 237);
+}
+
+.main .leftContainer .title .name {
+    width: 180px;
+    height: 70px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.main .leftContainer .title .name h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(33, 132, 237);
+}
+
+.main .leftContainer .content {
+    width: 250px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .leftContainer .content .ul {
+    width: 200px;
+    height: 300px;
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+.main .leftContainer .content .ul .li {
+    width: 200px;
+    height: 30px;
+    margin: 5px 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main .leftContainer .content .ul .li:hover {
+    background-color: white;
+}
+
+
+
+.main .leftContainer .content .ul .li svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(33, 132, 237);
+    margin: 0 5px;
+}
+
+.main .leftContainer .content .ul .li h1 {
+    width: 100px;
+    height: 30px;
+    margin: 0 5px;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    font-family: 'Mooli', sans-serif;
+    font-weight: 500;
+    color: rgb(33, 132, 237);
+}
+
+.main .rightContainer {
+    width: 1280px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .rightContainer .top {
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.main .rightContainer .top .componentName {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 34px;
+    justify-content: center;
+}
+
+.main .rightContainer .top .componentName h3 {
+    font-family: 'Mooli', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(33, 132, 237);
+}
+
+
+.main .rightContainer  .top .searchBar {
+    width: 700px;
+    height: 50px;
+    margin: 0 20px 0 40px;
+    border-radius: 34px;
+    background-color: rgb(222, 236, 248);
+    display: flex;
+    align-items: center;
+    
+}
+
+.main .rightContainer .top .searchBar .svg {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .rightContainer .top .searchBar .svg svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(33, 132, 237);
+    cursor: pointer;
+}
+
+.main .rightContainer .top .searchBar .input {
+    width: 600px;
+    height: 50px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.main .rightContainer .top .searchBar .input input {
+    width: 550px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 15px;
+    font-family: 'Mooli', sans-serif;
+    background-color: rgb(222, 236, 248);
+}
+
+.main .rightContainer .top .searchBar .input input:focus {
+    outline: none;
+}
+
+.main .rightContainer .top .searchBar .input input:hover {
+    background-color: white;
+}
+
+.main .rightContainer .bottom {
+    width: 100%;
+    height: 580px;
+}

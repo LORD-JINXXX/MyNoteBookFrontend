@@ -1,0 +1,54 @@
+.leftBar {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto 30px auto 100px;
+    box-shadow: 0 1px 10px rgba(20, 103, 219, 0.999) , 0 0 40px whitesmoke inset;
+    border-radius: 5px;
+}
+
+.leftBar .s1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 1px 5px rgba(20, 103, 219, 0.999);
+    border-radius: 5px;
+}
+
+.leftBar .s1:hover {
+    background-color:  rgba(203, 225, 255, 0.999);
+}
+
+
+.leftBar .s1 svg {
+    font-size: 20px;
+    fill: rgba(20, 103, 219, 0.999);
+    margin: 0 10px;
+}
+
+.leftBar .s1 span {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: rgba(20, 103, 219, 0.999);
+    margin: 0 10px;
+}
+
+.leftBar .s1 .svg {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.leftBar .s1 .svg svg {
+    font-size: 25px;
+}
+
+.leftBar .link {
+    text-decoration: none;
+}
+

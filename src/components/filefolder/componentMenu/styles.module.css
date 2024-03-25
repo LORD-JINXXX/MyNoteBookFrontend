@@ -1,0 +1,63 @@
+.mainMenu {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100px;
+    border: 1px solid rgba(20, 103, 219, 0.999);
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgba(20, 103, 219, 0.999);
+}
+
+.mainMenu .menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mainMenu .menuItems .menuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-family: 'Mooli', sans-serif;
+    font-weight: 500;
+    color: rgba(52, 131, 241, 0.999);
+    padding: 3px 0;
+}
+
+.mainMenu .menuItems .menuItem:hover {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.mainMenu .menuClose {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 0 5px 0;
+}
+
+.mainMenu .menuClose button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+}
+
+.mainMenu .menuClose button svg {
+    fill: red;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}

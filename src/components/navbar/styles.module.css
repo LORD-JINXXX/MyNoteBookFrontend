@@ -1,0 +1,148 @@
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+.main .body {
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.body {
+    box-shadow: 0 1px 10px rgba(20, 103, 219, 0.999) , 0 0 40px whitesmoke inset;
+}
+
+.main .body .appNameImage {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.main .body .appNameImage img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(20, 103, 219, 0.999);
+    border-radius: 34px;
+    margin: 0 5px;
+}
+
+.main .body .appNameImage h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(20, 103, 219, 0.999);
+    margin: 0 5px;
+}
+
+.main .body .appContent {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px 0 50px;
+}
+
+.main .body .appContent .link {
+    font-family: 'Mooli', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(61, 140, 251, 0.999);
+    text-decoration: none;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.main .body .appContent .link:hover {
+    font-size: 20px;
+    color: rgba(15, 86, 185, 0.999);
+    font-weight: 500;
+}
+
+.main .body .user {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.main .body .user .userSVG {
+    font-size: 20px;
+    fill: rgba(61, 140, 251, 0.999);
+    margin: 0 5px;
+}
+
+.main .body .user .userName {
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    color: rgba(61, 140, 251, 0.999);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.main .body .user .userName .userLink {
+    text-decoration: none;
+    color: rgba(61, 140, 251, 0.999);
+}
+
+.main .body .user .userName .userLink:hover {
+    font-size: 20px;
+    color: rgba(15, 86, 185, 0.999);
+}
+
+.main .body .logout {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.main .body .logout .logoutButton {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    background-color: rgba(52, 137, 255, 0.999);
+    border: 1px solid azure;
+    cursor: pointer;
+}
+
+.main .body .logout .logoutButton:hover {
+    background-color: rgba(15, 86, 185, 0.999);
+}
+
+
+
+
+.main .body .logout .logoutButton .logoutSVG {
+    font-size: 15px;
+    fill: azure;
+    margin: 0 5px;
+}
+
+.main .body .logout .logoutButton .logoutButtonName {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Mooli', sans-serif;
+    margin: 0 5px;
+    color: azure;
+}

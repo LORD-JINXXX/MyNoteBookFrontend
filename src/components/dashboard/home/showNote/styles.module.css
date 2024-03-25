@@ -1,0 +1,139 @@
+.main {
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .title {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+    border-radius: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.main .title h4 {
+    font-size: 18px;
+    font-family: 'Mooli', sans-serif;
+    font-weight: 500;
+    color: rgba(52, 131, 241, 0.999);
+}
+
+.main .itemsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.main .itemsContainer .empty {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+
+.main .itemsContainer .empty h3 {
+    font-size: 22px;
+    font-family: 'Mooli', sans-serif;
+    font-weight: 500;
+    color: rgba(52, 131, 241, 0.999);
+}
+
+.main .items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 10px 0px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.main .items .item {
+    width: 120px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+    cursor: pointer;   
+}
+
+.main .items .item:hover {
+    box-shadow: 1px 3px 10px rgba(20, 103, 219, 0.999);
+    border-radius: 10px;
+}
+
+.main .items .item .tripleDotContainer {
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+.main .items .item .tripleDotContainer .tripleDot {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 3px 0px;
+    position: relative;
+}
+
+.main .items .item:hover .tripleDotContainer .tripleDot .ellipsisMenu{
+    display: block;
+    position: absolute;
+} 
+
+.main .items .item .tripleDotContainer .tripleDot svg {
+    width: 15px;
+    height: 15px;
+    fill: black;
+    margin: 10px 5px;
+    display: none;
+}
+
+.main .items .item .tripleDotContainer .tripleDot svg:hover {
+    fill: rgba(20, 103, 219, 0.999);
+}
+
+.main .items .item .svg {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+}
+
+.main .items .item .svg svg {
+    width: 50px;
+    height: 50px;
+    fill: rgba(52, 131, 241, 0.999);
+}
+
+
+.main .items .item .name {
+    width: 100%;
+    height: auto;
+    margin: 5px 10px 10px 5px;
+    font-size: 15px;
+    font-family: 'Mooli', sans-serif;
+    font-weight: 500;
+    color: rgba(52, 131, 241, 0.999);
+    text-align: center;
+}

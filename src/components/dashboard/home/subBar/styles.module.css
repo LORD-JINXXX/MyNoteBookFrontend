@@ -1,0 +1,115 @@
+.bar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bar .barLeft {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bar .barLeft .path {
+    width: 100%;
+    height: 35px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    border-radius: 34px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+.bar .barLeft .path .breadcrumb {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bar .barLeft .path .breadcrumb button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.bar .barLeft .path .breadcrumb .breadcrumbItem{
+    color: rgba(52, 131, 241, 0.999);
+}
+
+
+.bar .barLeft .path .breadcrumb .breadcrumbItem:not(:last-child):after {
+    content: "/";
+    margin: 0 0px 0 10px;
+}
+
+.bar .barLeft .path .breadcrumb .breadcrumbItem:last-child {
+    font-weight: bold;
+    color: rgba(52, 131, 241, 0.999);
+    margin: 0 0 0 5px;
+}
+
+
+
+.bar .barRight {
+    width: 457px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 34px;
+}
+
+.bar .barRight .btn {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgba(52, 131, 241, 0.999);
+    border-radius: 34px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.bar .barRight .btn:hover {
+    background-color:aliceblue;
+}
+
+.bar .barRight .btn .svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 100%;
+    margin: 0 5px;
+}
+
+.bar .barRight .btn .svg svg {
+    width: 20px;
+    height: 20px;
+    fill: rgba(52, 131, 241, 0.999);
+}
+
+.bar .barRight .btn .name {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(52, 131, 241, 0.999);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}

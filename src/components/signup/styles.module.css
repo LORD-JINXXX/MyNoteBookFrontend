@@ -1,0 +1,182 @@
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(91, 245, 137, 0.622), rgb(96, 173, 255));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .appName {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+    background: linear-gradient(to top,azure,floralwhite,azure);
+
+}
+
+.main .appName span {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgba(91, 158, 252, 0.999);
+}
+
+.main .appName p {
+    font-family: 'Mooli', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(67, 139, 240, 0.999);
+}
+
+.main .containerLeft {
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(to top, azure,floralwhite, azure);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main .containerLeft .header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.main .containerLeft .header h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(20, 103, 219, 0.999);
+}
+
+.main .containerLeft .form {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .containerLeft .form .formInput {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.733);
+    padding: 0 5px;
+    border-radius: 34px;
+    margin: 5px 0;
+}
+
+.main .containerLeft .form .formInput .nameImage {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    fill: rgb(55, 55, 55);
+    margin-left: 10px;
+}
+
+.main .containerLeft .form .formInput .input {
+    width: 85%;
+    height: 40px;
+    border: 1px solid azure;
+    border-radius: 34px;
+    padding: 3px 20px;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.input[type=text]:focus, .input[type=email]:focus, .input[type=password]:focus {
+    outline: 2px solid rgba(52, 131, 241, 0.999);
+}
+
+.main .containerLeft .form .btn {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.main .containerLeft .form .btn .submit {
+    width: 100px;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 34px;
+    background-color: rgb(33, 132, 237);
+    color: floralwhite;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Mooli', sans-serif;
+    cursor: pointer;
+}
+
+.main .containerLeft .form .submit:hover {
+    background-color: rgb(18, 74, 134);
+}
+
+
+.main .containerRight {
+    width: 300px;
+    height: 500px;
+    background: rgba(55, 251, 114, 0.622);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 15px 15px 0;
+}
+
+.main .containerRight .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .containerRight .login p {
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: azure;
+}
+
+.main .containerRight .login .btnLogin {
+    width: 100px;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 34px;
+    background-color: rgb(33, 132, 237);
+    color: floralwhite;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Mooli', sans-serif;
+    cursor: pointer;
+}
+
+.main .containerRight .login .btnLogin:hover {
+    background-color: rgb(18, 74, 134);
+}

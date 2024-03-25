@@ -1,0 +1,334 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modalContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: aliceblue;
+    padding: 14px 28px;
+    border-radius: 15px;
+    width: 1450px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent .modalContentTitle {
+    width: 1400px;
+    height: 50px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent .modalContentTitle .title {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0 25px 0 0;
+    border-radius: 34px;
+    padding: 0 30px;
+}
+
+.modalContent .modalContentTitle .title input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(92, 171, 255, 0.999);
+    border-radius: 10px;
+    padding: 0 10px;
+    font-family: 'Mooli', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(51, 115, 205, 0.999);
+}
+
+.modalContent .modalContentTitle .title input[type=text]:focus {
+    outline: 1px solid rgba(9, 78, 174, 0.999);
+}
+
+.modalContent .modalContentTitle .title h2 {
+    font-family: 'Mooli', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(52, 131, 241, 0.999);
+}
+
+.modalContent .modalContentTitle .btn {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    margin: 0 0 0 25px;
+    border-radius: 34px;
+    padding: 0 20px;
+}
+
+.modalContent .modalContentTitle .btn .edit {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgba(92, 171, 255, 0.999);
+    border: 1px solid rgba(9, 78, 174, 0.999);
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.modalContent .modalContentTitle .btn .edit:hover {
+    background-color: rgba(0, 71, 148, 0.999);
+}
+
+.modalContent .modalContentTitle .btn .save {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(37, 240, 47);
+    border: 1px solid rgba(9, 78, 174, 0.999);
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.modalContent .modalContentTitle .btn .save:hover {
+    background-color: rgb(41, 162, 10);
+}
+
+.modalContent .modalContentTitle .btn .saveDisable {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ebebeb;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.modalContent .modalContentTitle .btn .close {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 66, 66);
+    border: 1px solid rgba(9, 78, 174, 0.999);
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.modalContent .modalContentTitle .btn .close:hover {
+    background-color: rgb(171, 25, 25);
+}
+
+.modalContent .Container {
+    width: 1400px;
+    height: 500px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent .Container .leftContainer {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0 25px 0 0;
+    border-radius: 34px;
+    padding: 0 10px;
+}
+
+.modalContent .Container .leftContainer .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modalContent .Container .leftContainer .content textarea {
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    padding: 15px 15px;
+    outline: none;
+    border-color: rgba(133, 184, 255, 0.999);
+    font-family: 'Mooli', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(51, 115, 205, 0.999);
+}
+
+.modalContent .Container .leftContainer .content textarea:focus{
+    border-color: rgba(9, 78, 174, 0.999);
+}
+
+.modalContent .Container .leftContainer .contentPreview {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+}
+
+.modalContent .Container .leftContainer .contentPreview p {
+    font-family: 'Mooli', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(51, 115, 205, 0.999);
+}
+
+
+.modalContent .Container .rightContainer {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 0 0 25px;
+    border-radius: 34px;
+    padding: 20px;
+}
+
+.modalContent .Container .rightContainer .btnConatinerOne {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modalContent .Container .rightContainer .btnConatinerOne .rightContainerBTN {
+    width: auto;
+    height: 30px;
+    border-radius: 34px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: 'Jost', sans-serif;
+    color: rgba(71, 137, 229, 0.999);
+    cursor: pointer;
+    margin: 15px 10px;
+}
+
+.modalContent .Container .rightContainer .btnConatinerOne .rightContainerBTN:hover {
+    border: 1px solid rgba(26, 93, 186, 0.999);
+    background-color: white;
+}
+
+.modalContent .Container .rightContainer .btnConatinerOne .rightContainerBTNDisable {
+    width: auto;
+    height: 30px;
+    border-radius: 34px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: 'Jost', sans-serif;
+    background-color: #ebebeb;
+    color: black;
+    cursor: pointer;
+    margin: 15px 10px;
+}
+
+.modalContent .Container .rightContainer .btnConatinerTwo {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.modalContent .Container .rightContainer .btnConatinerTwo .rightContainerBTN {
+    width: auto;
+    height: 30px;
+    border-radius: 34px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: 'Jost', sans-serif;
+    color: rgba(71, 137, 229, 0.999);
+    cursor: pointer;
+    margin: 15px 10px;
+}
+
+.modalContent .Container .rightContainer .btnConatinerTwo .rightContainerBTN:hover {
+    border: 1px solid rgba(26, 93, 186, 0.999);
+    background-color: white;
+}
+
+.modalContent .Container .rightContainer .btnConatinerTwo .rightContainerBTNDisable {
+    width: auto;
+    height: 30px;
+    border-radius: 34px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: 'Jost', sans-serif;
+    background-color: #ebebeb;
+    color: black;
+    cursor: pointer;
+    margin: 15px 10px;
+}
+
+

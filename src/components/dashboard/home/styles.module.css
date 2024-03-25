@@ -1,0 +1,45 @@
+.main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.main .showItem {
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    visibility: hidden;
+    margin: 10px 0;
+}
+
+.showItemContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showItemContent h1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    color: rgba(52, 131, 241, 0.999);
+}
+
+.showItemContent {
+    visibility: visible;
+}
+.showItem:hover{
+    visibility: visible;
+}
+.showItem:focus {
+    visibility: visible;
+}

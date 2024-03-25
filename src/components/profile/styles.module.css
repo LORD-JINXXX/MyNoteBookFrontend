@@ -1,0 +1,17 @@
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .left {
+    margin: auto 20px auto 100px;
+}
+
+.main .right {
+    margin: auto 100px auto 20px;
+}
+

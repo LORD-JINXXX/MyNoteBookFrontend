@@ -1,0 +1,177 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modalContent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: aliceblue;
+    padding: 14px 28px;
+    border-radius: 15px;
+    width: 400px;
+    height: 280px;
+}
+
+.modalContent .header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0 15px 0;
+}
+
+.modalContent .header .name {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 34px;
+}
+
+.modalContent .header .name h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgba(52, 131, 241, 0.999);
+}
+
+.modalContent .header .close {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 34px;
+}
+
+.modalContent .header .close svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    fill: red;
+}
+
+.modalContent .header .close svg:hover {
+    fill: rgb(161, 11, 11);
+}
+
+.modalContent .form {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent .form .input {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent .form .input input {
+    width: 350px;
+    height: 30px;
+    border-radius: 34px;
+    border: 1px solid rgba(52, 131, 241, 0.999);
+    padding: 0 15px;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    align-items: center;
+}
+
+.modalContent .form .input input[type=text]:focus {
+    outline: 1px solid rgba(52, 131, 241, 0.999);
+}
+
+.modalContent .form .extension {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px 0 15px 0;
+}
+
+.modalContent .form .extension h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    margin: 0 10px;
+    color: rgba(52, 131, 241, 0.999);
+}
+
+.modalContent .form .extension .select {
+    margin: 0 10px;
+    width: 70px;
+    height: 20px;
+    border: 2px solid rgba(52, 131, 241, 0.999);
+    outline: rgba(52, 131, 241, 0.999);
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.modalContent .form .btn {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 5px 0;
+}
+
+.modalContent .form .btn button {
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(5, 45, 87);
+    border-radius: 34px;
+    background-color: rgb(33, 132, 237);
+    color: white;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Mooli', sans-serif;
+    cursor: pointer;
+}
+
+.modalContent .form .btn button:hover {
+    background-color: rgb(31, 95, 151);
+}
+
