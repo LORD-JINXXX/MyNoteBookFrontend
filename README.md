@@ -27,8 +27,8 @@
 #### web-vitals: Library for tracking web performance metrics.
 
 ## Installation
-#### Clone this repository: git clone https://github.com/yourusername/note-app-frontend.git
-#### Navigate to the project directory: cd note-app-frontend
+#### Clone this repository: git clone https://github.com/LORD-JINXXX/MyNoteBookFrontend.git
+#### Navigate to the project directory: cd MyNoteBookFrontend
 #### Install dependencies: npm install
 
 ## Usage
