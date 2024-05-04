@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# MyNoteBookFrontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend application for the Note App, a MERN (MongoDB, Express.js, React.js, Node.js) application that allows users to create, manage, and organize notes in folders.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+User Authentication: Secure user authentication and authorization process including signup, login, email verification, and password management.
+CRUD Operations: Users can perform CRUD (Create, Read, Update, Delete) operations on both folders and files.
+Folder Hierarchy: Users can create folders within folders to organize their notes hierarchically.
+Profile Management: Users can view and update their personal information and upload a profile picture.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React: JavaScript library for building user interfaces.
+React Router DOM: Declarative routing for React.
+React Redux: State management library for React applications.
+Redux Thunk: Middleware for handling asynchronous actions in Redux.
+Axios: Promise-based HTTP client for making AJAX requests.
+Firebase: Cloud-based platform for hosting and managing app data.
+react-toastify: Library for displaying toast notifications.
+@babel/plugin-proposal-private-property-in-object: Babel plugin for private property access in objects.
+@npm-chrome-extensions/react-devtools: Chrome extension for debugging React applications.
+@redux-devtools/extension: Chrome extension for debugging Redux applications.
+@testing-library/jest-dom: Jest utility functions for DOM testing.
+@testing-library/react: React testing utilities for testing components.
+@testing-library/user-event: Library for simulating user events in tests.
+web-vitals: Library for tracking web performance metrics.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+Clone this repository: git clone https://github.com/yourusername/note-app-frontend.git
+Navigate to the project directory: cd note-app-frontend
+Install dependencies: npm install
 
-### `npm test`
+## Usage
+Start the development server: npm start
+The application will open in your default web browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Folder Structure
 
-### `npm run build`
+src/
+|-- api/                   # all the api's used are inside this folder
+|-- components/            # Reusable UI components
+|-- config/                # Contains firebase config file
+|-- context                # Contains auth context file
+|-- redux/                 # Redux state management (actions, reducers, store)
+|-- App.js                 # Main component
+|-- index.js               # Entry point
+|-- index.css              # Entry point css file
+|-- urls.js                # Base urls file
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
